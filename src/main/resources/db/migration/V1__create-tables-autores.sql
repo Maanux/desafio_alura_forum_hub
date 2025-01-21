@@ -1,0 +1,7 @@
+CREATE TABLE autores (
+    id BIGSERIAL NOT NULL,
+    nome VARCHAR(100) NOT NULL,
+    email VARCHAR(150) NOT NULL UNIQUE,
+    senha VARCHAR(255) NOT NULL,
+    PRIMARY KEY (id)
+);
